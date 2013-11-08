@@ -1,6 +1,6 @@
 This is a [veewee](https://github.com/jedi4ever/veewee) template for building a
 [Vagrant](http://vagrantup.com/) box that closely mirrors the heroku Cedar stack. You can build it
-yourself by following the directions below or install a prebuilt version from [here](http://dl.dropbox.com/u/1906634/heroku.box).
+yourself by following the directions below or install a prebuilt version from [here](https://www.dropbox.com/s/auq7ipsbwgzmp9a/heroku.box).
 
 ## Easy Install
 
@@ -9,7 +9,7 @@ Add the following to your `Vagrantfile`.
 ```ruby
 Vagrant::Config.run do |config|
   config.vm.box = "heroku"
-  config.vm.box_url = "https://dl.dropboxusercontent.com/s/rnc0p8zl91borei/heroku.box"
+  config.vm.box_url = "https://www.dropbox.com/s/auq7ipsbwgzmp9a/heroku.box"
 end
 ```
 
